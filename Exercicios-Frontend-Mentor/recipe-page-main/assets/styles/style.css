@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
 body {
-    font-family: Young-serif, Outfit;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
