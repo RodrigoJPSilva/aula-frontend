@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    flex-direction: row;
+    padding: 10px;
+    background-color: yellow;
+}
+.button-wrapper {
+    display: flex;
+    justify-self: flex-end
+}
