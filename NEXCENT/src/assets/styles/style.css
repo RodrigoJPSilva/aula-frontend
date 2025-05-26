@@ -1,0 +1,123 @@
+@import url(./global.css);
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+    padding: 22 0px;
+    background-color: var(--color-neutral-Silver);
+}
+.logo img{
+    height: 24px;
+    width: 155px;
+}
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: var(--color-primary);
+}
+.nav-header a {
+    color: black;
+}
+.active {
+    font-weight: 600;
+}
+.btn-header {
+    display: flex;
+    gap: 14px;
+
+}
+.btn-header button:nth-child(1) {
+    color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-header button:nth-child(2){
+    color: var(--color-neutral-White);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-header button:nth-child(1):hover {
+    color: var(--color-shade3);
+}
+.btn-header button:nth-child(2):hover {
+    background-color: var(--color-shade3);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-neutral-Silver);
+}
+.content-main {
+    display: flex;
+    flex-direction: column;
+    width: 657px;
+    gap:16px;
+}
+.content-main h1 {
+    font-size: 64px;
+}
+.content-main p {
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+}
+.btn-primary{
+    border-radius: 4px;
+    width: 128px;
+    height: 52px;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-White);
+    margin-top: 16px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: var(--color-shade3);
+}
+span {
+    color: var(--color-primary);
+}
+.img-main img {
+    width: 391px;
+    height: 407px;
+}
+.our-clients {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0px;
+    gap: 16px;
+}
+
+.our-clients-content h2 {
+    font-size: 36px;
+    color: var(--color-neutral-D-grey);
+    gap: 8px;
+}
+.our-clients-content p {
+    font-size: 16px;
+    color: var(--color-neutral-Grey);
+}
+.our-clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
