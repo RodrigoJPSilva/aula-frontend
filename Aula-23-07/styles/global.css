@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+:root {
+    --Color-Green: #9DFF3A;
+    --Color-Gradient: linear-gradient(to down, #75A941, #3A7500);
+    --Color-White: #E5E5E5;
+    --Color-Gray1: #999999;
+    --Color-Gray2: #4D4D4D;
+    --Color-Gray3: #2E2E2E;
+    --Color-Gray4: #0F0F0F;
+
+    --Tittle1-Website: 64px;
+    --Tittle2-Website: 48px;
+    --Tittle3-Website: 40px;
+    --Subtitle-Website: 20px;
+    --Button-Website: 18px;
+    --Text1-Website: 16px;
+    --Text2-Website: 14px;
+    --Caption-Website: 12px;
+    
+    --Tittle1-Mobile: 40px;
+    --Tittle2-Mobile: 28px;
+    --Subtitle-Mobile: 20px;
+    --Button-Mobile: 18px;
+    --Text1-Mobile: 16px;
+    --Text2-Mobile: 14px;
+    --Caption-Mobile: 12px;
+}
+

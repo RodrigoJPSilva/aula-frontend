@@ -1,0 +1,75 @@
+@import url(./global.css);
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+body {
+    background-color: #0F0F0F;
+    color: var(--Color-White);
+    font-family: Alexandria;
+}
+h1 {
+    font-size: var(--Tittle1-Website);
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+header a {
+    color: #ffffff;
+}
+.buttons-header {
+    display: flex;
+    gap: 16px;
+}
+.buttons-header button:nth-child(1) {
+    color: var(--Color-White);
+}
+.buttons-header button:nth-child(2) {
+    background-color: var(--Color-Green);
+    padding: 8px 24px;
+    border-radius: 50px;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 166px;
+    gap: 100px;
+}
+main section {
+    width: 568px;
+    height: 345px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.subtitle {
+    font-size: var(--Subtitle-Website);
+    color: var(--Color-Gray1);
+}
+.topics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    color: var(--Color-Green);
+    font-size: var(--Text1-Website);
+    border: 3px solid transparent;
+    padding: 10px 12px;
+    gap: 8px;
+    background:
+        linear-gradient(black, black) padding-box,
+        linear-gradient(102deg, rgba(77, 77, 77,60%), rgba(179, 179, 179, 60%))border-box;
+    border-radius: 50px;
+}
