@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Matheus Maia Alvarez">
+    <meta name="Description"
+        content="Esse é um site que desenvolvi a partir de um template no Figma, para testar meus conhecimentos em HTML e CSS">
+    <meta name="Keywords" content="HTML, CSS, web design">
+    <meta property="og:title" content="Nexcent">
+    <meta property="og:description" content="Olha o projeto que desenvolvi usando HTML e CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+
+<body>
+
+    <!---------------------- HEADER ---------------------- -->
+
+    <header>
+
+        <div class="logo">
+            <img src="./src/assets/images/Logo.svg" alt="Logo Nexcent" title="Logo Nexcent">
+        </div>
+
+        <nav class="nav-header">
+            <ul>
+                <a href="#">
+                    <li class="active">Homes</li>
+                </a>
+                <a href="#">
+                    <li>Service</li>
+                </a>
+                <a href="#">
+                    <li>Feature</li>
+                </a>
+                <a href="#">
+                    <li>Product</li>
+                </a>
+                <a href="#">
+                    <li>Testimonial</li>
+                </a>
+                <a href="#">
+                    <li>FAQ</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="btn-header">
+            <a href="#"><button class="btn-login">Login</button></a>
+            <a href="#"><button class="btn-SignUp">Sign up</button></a>
+        </div>
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <!---------------------- FIM HEADER ---------------------- -->
+
+    <!---------------------- MAIN ---------------------- -->
+
+    <main>
+
+        <div class="content-lessons">
+            <h1>Lessons and insights <span>from 8 years</span></h1>
+            <p>Where to grow your business as a photographer: site or social media?</p>
+            <button class="btn-primary">Register</button>
+        </div>
+
+        <div>
+            <img src="./src/assets/images/Illustration.svg"
+                alt="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++"
+                title="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++">
+        </div>
+
+    </main>
+
+    <!---------------------- FIM MAIN ---------------------- -->
+
+    <!---------------------- OUR CLIENTS ---------------------- -->
+
+    <section class="our-client">
+        <h2>Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+
+        <div class="logo-clients">
+            <img src="./src/assets/images/Logo-client.svg" alt="Logo da empresa 1" title="Logo da empresa 1"
+                loading="lazy">
+            <img src="./src/assets/images/Logo-1.svg" alt="Logo da empresa 1" title="Logo da empresa 1" loading="lazy">
+            <img src="./src/assets/images/Logo-2.svg" alt="Logo da empresa 1" title="Logo da empresa 1" loading="lazy">
+            <img src="./src/assets/images/Logo-3.svg" alt="Logo da empresa 2" title="Logo da empresa 2" loading="lazy">
+            <img src="./src/assets/images/Logo-4.svg" alt="Logo da empresa 3" title="Logo da empresa 3" loading="lazy">
+            <img src="./src/assets/images/Logo-5.svg" alt="Logo da empresa 4" title="Logo da empresa 4" loading="lazy">
+            <img src="./src/assets/images/Logo-2.svg" alt="Logo da empresa 6" title="Logo da empresa 6" loading="lazy" hidden>
+        </div>
+
+    </section>
+
+    <!---------------------- FIM OUR CLIENTS ---------------------- -->
+
+    <!---------------------- MANAGE SYSTEM ---------------------- -->
+
+    <section class="manage-system">
+
+        <h2>Manage your entire community in a single system</h2>
+        <p id="manage-system-subtitle">Who is Nextcent suitable for?</p>
+
+        <div class="cards-container">
+
+            <article>
+                <img src="./src/assets/images/Icon01-manage.svg" alt="Ícone grupo de pessoas"
+                    title="Ícone grupo de pessoas" loading="lazy">
+                <h3>Membership Organisations</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </article>
+
+            <article>
+                <img src="./src/assets/images/Icon02-manage.svg" alt="Ícone de empresas" title="Ícone de empresas"
+                    loading="lazy">
+                <h3>National Associations</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </article>
+
+            <article>
+                <img src="./src/assets/images/Icon03-manage.svg" alt="Ícone mão de pessoas em grupo"
+                    title="Ícone mão de pessoa em grupo" loading="lazy">
+                <h3>Clubs And Groups</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!---------------------- FIM MANAGE SYSTEM ---------------------- -->
+
+
+    <!---------------------- PIXELGRADE ---------------------- -->
+
+    <!-- <section class="pixelgrade">
+        <img src="./src/assets/images/rafiki.svg" 
+          alt="Desenho ilustrativo de uma pessoa segurando um celular enquanto a outra pessoa mexe" 
+          title="Desenho ilustrativo de uma pessoa segurando um celular enquanto a outra pessoa coloca sua senha" 
+          loading="lazy">
+    
+        <div class="pixelgrade-content">
+          <h2>The unseen of spending three years at Pixelgrade</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
+            accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed
+            porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam
+            quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+          <button class="btn-primary">Learn More</button>
+        </div>
+      </section> -->
+
+
+    <section class="pixelgrade">
+
+        <div>
+            <img src="./src/assets/images/rafiki.svg"
+                alt="Desenho ilustrativo de uma pessoa segurando um celular enquanto a outra pessoa mexe"
+                title="Desenho ilustrativo de uma pessoa segurando um celular enquanto a outra pessoa coloca sua senha"
+                loading="lazy">
+        </div>
+
+        <div class="pixelgrade-content">
+            <h2>The unseen of spending three years at Pixelgrade</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam
+                vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique
+                iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae,
+                tempus sem. Donec elementum pulvinar odio.</p>
+            <button class="btn-primary">Learn More</button>
+        </div>
+
+    </section>
+
+    <!---------------------- FIM PIXELGRADE ---------------------- -->
+
+    <!---------------------- HELPING LOCAL ---------------------- -->
+
+    <section class="helping-local">
+
+        <div class="helping-content">
+            <h2>Helping a local <span>business reinvent itself</span></h2>
+            <p>We reached here with our hard work and dedication</p>
+        </div>
+
+        <div class="helping-statistic">
+            <!-- ---------- Item 1 ---------- -->
+            <div class="helping-itens">
+                <img src="./src/assets/images/helping-itens-members.png" alt="Ícone de duas pessoas" title="Ícone de duas pessoas" loading="lazy">
+                <div class="information-itens">
+                    <h3>2,245,341</h3>
+                    <p>Members</p>
+                </div>
+            </div>
+            <!-- ---------- Fim Item 1 ---------- -->
+
+            <!-- ---------- Item 2 ---------- -->
+            <div class="helping-itens">
+                <img src="./src/assets/images/helping-itens-clubs.png" alt="Ícone de duas pessoas" title="Ícone de duas pessoas" loading="lazy">
+                <div class="information-itens">
+                    <h3>46,328</h3>
+                    <p>Clubs</p>
+                </div>
+            </div>
+            <!-- ---------- Fim Item 2 ---------- -->
+
+            <!-- ---------- Item 3 ---------- -->
+            <div class="helping-itens">
+                <img src="./src/assets/images/helping-itens-event.png" alt="Ícone de duas pessoas" title="Ícone de duas pessoas" loading="lazy">
+                <div class="information-itens">
+                    <h3>828,867</h3>
+                    <p>Event Bookings</p>
+                </div>
+            </div>
+            <!-- ---------- Fim Item 3 ---------- -->
+
+            <!-- ---------- Item 4 ---------- -->
+            <div class="helping-itens">
+                <img src="./src/assets/images/helping-itens-payments.png" alt="Ícone de duas pessoas" title="Ícone de duas pessoas" loading="lazy">
+                <div class="information-itens">
+                    <h3>1,926,436</h3>
+                    <p>Payments</p>
+                </div>
+            </div>
+            <!-- ---------- Fim Item 4 ---------- -->
+        </div>
+
+    </section>
+
+    <!---------------------- FIM HELPING LOCAL ---------------------- -->
+    
+    <!---------------------- HOW DESIGN ---------------------- -->
+    <section class="how-design">
+        <div>
+            <img src="./src/assets/images/pana.png" alt="mulher mexendo no celular/ilustração" title="mulher mexendo no celular/ilustração" loading="lazy">
+        </div>
+
+        <div class="content-how-design">
+            <h2>How to design your site footer like we did</h2>
+            <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+            <button class="btn-primary">Learn More</button>
+        </div>
+    </section>
+
+    <!---------------------- FIM HOW DESIGN  ---------------------- -->
+    
+    <!---------------------- CUSTOMER  ---------------------- -->
+
+    <section class="customer">
+        <div>
+            <img src="./src/assets/images/tesla.svg" alt="Logo Tesla" title="Logo Tesla" loading="lazy">
+        </div>
+
+        <div class="customer-content">
+            <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+            <h2>Tim Smith</h2>
+            <p>British Dragon Boat Racing Association</p>            
+        
+            <div class="customer-container">
+                <div class="customer-itens">
+                    <img src="./src/assets/images/logo-roxo.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                    <img src="./src/assets/images/Logo-1.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                    <img src="./src/assets/images/Logo-2.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                    <img src="./src/assets/images/Logo-3.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                    <img src="./src/assets/images/Logo-4.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                    <img src="./src/assets/images/Logo-5.svg" alt="Logo empresa 1" title="Logo empresa 1" loading="lazy">
+                </div>
+
+                <div class="customer-navigation">
+                    <a href="#">
+                        <p>Meet all customers</p>
+                        <img src="./src/assets/images/arrow.svg" alt="Setinha para direita" title="Setinha para direita" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!---------------------- FIM CUSTOMER  ---------------------- -->
+    
+    <!---------------------- CARING MARKETING  ---------------------- -->
+
+    <section class="caring-marketing">
+        <h2>Caring is the new marketing</h2>
+        <p class="caring-marketing-p">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+
+        <div class="caring-marketing-container">
+            <article class="caring-cards">
+                <img src="./src/assets/images/caring-marketing01.svg" alt="mulher sentada no sofá usando o notebook" title="mulher sentada no sofá usando o notebook" loading="lazy">
+                <div class="caring-cards-content">
+                    <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+                    <a href="">
+                        <p>Readmore</p>
+                        <img src="./src/assets/images/arrow.svg" alt="">                        
+                    </a>
+                </div>
+            </article>
+
+            <article class="caring-cards">
+                <img src="./src/assets/images/caring-marketing02.svg" alt="mulher sentada no sofá usando o notebook" title="mulher sentada no sofá usando o notebook" loading="lazy">
+                <div class="caring-cards-content">
+                    <h3>What are your safeguarding responsibilities and how can you manage them?</h3>
+                    <a href="">
+                        <p>Readmore</p>
+                        <img src="./src/assets/images/arrow.svg" alt="">                        
+                    </a>
+                </div>
+            </article>
+
+            <article class="caring-cards">
+                <img src="./src/assets/images/caring-marketing03.svg" alt="mulher sentada no sofá usando o notebook" title="mulher sentada no sofá usando o notebook" loading="lazy">
+                <div class="caring-cards-content">
+                    <h3>Revamping the Membership Model with Triathlon Australia</h3>
+                    <a href="">
+                        <p>Readmore</p>
+                        <img src="./src/assets/images/arrow.svg" alt="">                        
+                    </a>
+                </div>
+            </article>
+        </div>        
+
+    </section>
+
+    <!---------------------- FIM CARING MARKETING  ---------------------- -->
+    
+    
+    <!---------------------- PELLENTESQUE  ---------------------- -->
+
+    <section class="pellentesque">
+        <h2>Pellentesque suscipit fringilla libero eu.</h2>
+        <a href="">
+            <button class="btn-primary">
+                Get a Demo
+                <img src="./src/assets/images/Right-white.svg">
+            </button>
+        </a>
+    </section>
+
+    <!---------------------- FIM PELLENTESQUE  ---------------------- -->
+    
+    <!---------------------- FOOTER  ---------------------- -->
+    
+    <footer>
+
+        <div>
+            <img src="./src/assets/images/Logo-white.svg" alt="Logo Nexcente" title="Logo Nexcente" loading="lazy">
+            <div class="copyright">
+                <p>Copyright © 2020 Nexcent ltd.</p>
+                <p>All rights reserved</p>
+            </div>
+
+            <div class="footer-socials">
+                <div class="social-icons">
+                    <img src="./src/assets/logo-instagram.svg" alt="Logo do Instagram" title="Logo do Instagram" loading="lazy">                                                            
+                </div>
+                <div class="social-icons">
+                    <img src="./src/assets/logo-dribblee.svg" alt="Logo do Dribble" title="Logo do Dribble" loading="lazy">
+                </div>
+                <div class="social-icons">
+                    <img src="./src/assets/logo-twitter.svg" alt="Logo Twitter" title="Logo Twitter" loading="lazy">
+                </div>
+                <div class="social-icons">
+                    <img src="./src/assets/Logo-Youtube.svg" alt="Logo Youtube" title="Logo Youtube" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-navigation">
+
+            <div class="footer-container">
+                <h2>Company</h2>
+                <nav>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-item">About us</a></li>
+                        <li><a href="#" class="footer-item">Blog</a></li>
+                        <li><a href="#" class="footer-item">Contact us</a></li>
+                        <li><a href="#" class="footer-item">Pricing</a></li>
+                        <li><a href="#" class="footer-item">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-container">
+                <h2>Support</h2>
+                <nav>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-item">Help center</a></li>
+                        <li><a href="#" class="footer-item">Terms of service</a></li>
+                        <li><a href="#" class="footer-item">Legal</a></li>
+                        <li><a href="#" class="footer-item">Privacy policy</a></li>
+                        <li><a href="#" class="footer-item">Status</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-container">
+                <h2>Stay up to date</h2>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="stay-button">
+                        <img src="./src/assets/images/send.svg" alt="Ícone de envio" title="Ícone de envio" loading="lazy">
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!---------------------- FIM FOOTER  ---------------------- -->
+
+
+</body>
+
+</html>

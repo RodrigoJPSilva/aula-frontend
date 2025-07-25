@@ -1,0 +1,839 @@
+@import url('./global.css');
+
+/* ------------ HEADER ------------ */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+}
+
+.logo{
+    padding: 30px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    color: #18191F;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-SignUp{
+    color: var(--color-neutral-white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+
+.menu-toggle{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-toggle span{
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: 0.3s ease;
+  display: block; 
+}
+
+/* ------------ FIM HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+
+main{
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.content-lessons{
+    width: 657px;
+}
+
+h1{
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+    font-weight: 600;
+}
+
+.content-lessons h1 span{
+    color: var(--color-primary);
+}
+
+.content-lessons p{
+    margin-top: 16px;    
+}
+
+
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
+.our-client{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p{
+    margin-top: 8px;
+}
+
+.logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;    
+    margin-top: 16px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+.manage-system{    
+    text-align: center;
+    margin-top: 40px;    
+}
+
+.manage-system h2{
+    width: 542px;
+    margin: 0 auto;
+}
+
+#manage-system-subtitle{
+    margin-top: 8px;
+}
+
+.cards-container{
+    display: flex;
+    margin-top: 16px;
+    gap: 127.5px;
+    justify-content: center;
+}
+
+.cards-container article{
+    width: 299px; 
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px; 
+    transition: 0.5s;
+}
+
+.cards-container article:hover{
+    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+    transform: translateY(-8px);
+}
+
+.cards-container article img{
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3{
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cards-container article p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
+
+/* ------------ Pixelgrade ------------ */
+
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding: 52px;
+    margin-top: 42px;
+}
+
+.pixelgrade-content{
+    width: 661px;
+}
+
+.pixelgrade-content h2{
+    width: 526px;
+}
+
+.pixelgrade-content p{
+    margin-top: 16px;
+
+}
+
+/* ------------ FIM Pixelgrade ------------ */
+
+
+/* ------------ Helping Local ------------ */
+
+.helping-local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 204px;
+    padding: 64px 0px;
+}
+
+.helping-content h2{
+    width: 390px;
+}
+
+.helping-content h2 span{
+    color: var(--color-primary);
+}
+
+.helping-content p{
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.helping-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;    
+}
+
+.helping-itens{
+    display: flex;
+    gap: 16px
+}
+
+.helping-itens img{
+    width: 48px;
+}
+
+.information-itens{
+    text-align: start;
+
+}
+
+/* ------------ FIM Helping Local ------------ */
+
+/* -------------começo design ---------------- */
+
+/* .design-wedid {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 49px;
+    align-items: center;
+}
+
+.design-content h2{
+    width: 601px;
+    margin-bottom: 16px;
+}
+
+.design-content p {
+    width: 601px;
+    
+} */
+
+/* ------------------------------ HOW DESIGN ------------------------------ */ 
+.how-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 49.47px;
+}
+
+.how-design h2{
+    width: 601px;
+}
+
+.how-design p{
+    margin-top: 16px;
+    width: 680px;
+    line-height: 1.5;
+}
+
+/* ------------------------------ FIM HOW DESIGN ------------------------------ */ 
+
+/* ------------------------------ CUSTUMER ------------------------------ */ 
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--color-neutral-silver);
+}
+
+.customer-content{
+    width: 748px;    
+}
+
+.customer-content p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.customer-content h2{
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_grey);    
+}
+
+.customer-container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.customer-itens{
+    display: flex;
+    gap: 41px;
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+.customer-navigation a{
+    display: flex;     
+    text-decoration: none;
+    gap: 8px;
+}
+
+.customer-navigation a p{
+    color: var(--color-primary);
+    margin: 0;    
+}
+
+/* ------------------------------ FIM CUSTUMER ------------------------------ */ 
+
+
+/* ------------------------------ CARING MARKETING ------------------------------ */ 
+
+
+.caring-marketing{
+    text-align: center;    
+}
+
+.caring-marketing h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{    
+    width: 628px;    
+    margin: 0 auto; 
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;    
+    position: absolute;
+    bottom: -53px;
+    left: 25px;
+}
+
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-grey);
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px; 
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring-cards-content a p{
+    color: var(--color-primary);    
+}
+
+/* ------------------------------ FIM CARING MARKETING ------------------------------ */ 
+
+/* ------------------------------ PELLENTESQUE ------------------------------ */ 
+
+.pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-silver);
+    padding: 32px 0;
+}
+
+.pellentesque a{
+    text-decoration: none;
+}
+
+.pellentesque h2{
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+.pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;    
+}
+
+/* ------------------------------ FIM PELLENTESQUE ------------------------------ */ 
+
+
+/* ------------------------------ FOOTER ------------------------------ */ 
+
+footer{
+    background-color: var(--color-neutral-black);
+    display: flex;    
+    justify-content: center;
+    gap: 284px;
+    padding: 64px 0;
+}
+
+.copyright{
+    margin: 40px 0;
+}
+
+.copyright p{
+    color: var(--color-neutral-silver);
+}
+
+.copyright p:nth-of-type(1){
+    margin-bottom: 8px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons{
+    background-color: #3C474C;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social-icons:hover{
+    transform: translateY(-10px);
+    background-color: var(--color-primary); 
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+}
+
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 14px;    
+}
+
+.footer-item{
+    color: var(--color-neutral-silver);
+    text-decoration: none;
+    display: block;    
+    margin-bottom: 12px;  
+    transition: 0.4s;  
+}
+
+.footer-item:hover{
+    color: var(--color-primary);
+    transform: translateX(10px);
+}
+
+.footer-container form{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container form input{
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    outline: none;    
+}
+
+.footer-container form input::placeholder{
+    color: #D9DBE1;
+}
+
+.stay-button{
+    padding: 8.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stay-button:hover{
+    background-color: var(--color-primary);
+}
+
+
+/* ------------------------------ FIM FOOTER ------------------------------ */ 
+
+@media (max-width: 835px) {
+
+    /* ------ Header ------ */
+
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ------ Fim Header ------ */
+    
+    /* ------ Main ------ */
+
+    main{
+        padding: 96px 50px;        
+    }
+
+    /* ------ Fim Main ------ */
+
+    /* ------ Manage ------ */
+
+    .cards-container{
+        gap: 25px;
+    }
+
+    .cards-container article{
+        width: 250px;
+    }
+
+    /* ------ Fim Manage ------ */
+
+
+    /* ------ Pixelgrade ------ */
+
+    .pixelgrade{
+        gap: 10px;
+    }
+
+    .pixelgrade-content{
+        width: 500px;
+    }
+
+    /* ------ Fim Pixelgrade ------ */
+
+
+    /* ------ Helping local ------ */
+    
+    .helping-local{
+        gap: 50px;
+    }
+    
+    /* ------ Fim Helping local ------ */
+
+    /* ------ How design ------ */
+
+    .how-design{
+        gap: 20px;
+    }
+
+    .how-design h2{
+        width: 500px;
+    }
+
+    .how-design p{
+        width: 500px;
+    }
+
+    /* ------ Fim How design ------ */
+
+
+    /* ------ Custumer ------ */
+
+    .customer{
+        gap: 20px;
+    }
+
+    .customer-content{
+        width: 560px;
+    }
+
+    .customer-container{
+        flex-direction: column;
+    }
+
+    /* ------ Fim Custumer ------ */
+
+    /* ------ Caring ------ */
+
+    .caring-marketing-p{    
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .caring-marketing-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+   /* ------ Fim Caring ------ */
+
+   /* ------ Footer ------ */
+   
+   footer{
+    gap: 97px
+   }
+
+   /* ------ Fim Footer ------ */
+
+}
+
+
+@media (max-width: 500px) {
+    
+   /* ------ Header ------ */
+
+   .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+   /* ------ Fim Header ------ */
+
+
+   /* ------ Main ------ */
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-lessons{
+        width: 90%;
+    }
+
+   /* ------ Fim Main ------ */
+
+
+   /* ------ Manage ------ */
+
+    .manage-system h2{
+        width: 80%;        
+    }
+
+    .cards-container{
+        flex-direction: column;       
+        align-items: center;
+        gap: 50px;
+    }
+
+   /* ------ Fim Manage ------ */
+
+
+   /* ------ Pixelgrade ------ */
+
+    .pixelgrade{
+        flex-direction: column;
+        align-items: center;   
+        padding: 52px 0; 
+    }
+
+    .pixelgrade-content{
+        width: 90%;
+    }
+
+    .pixelgrade-content h2{
+        width: 100%;
+    }
+
+   /* ------ Fim Pixelgrade ------ */
+
+
+   /* ------ Helping Local ------ */
+
+   .helping-local{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .helping-local h2{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .helping-local p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .helping-statistic{        
+        grid-template-columns: repeat(1, 1fr);        
+    }
+
+   /* ------ Fim Helping Local ------ */
+
+
+   /* ------ How Design ------ */
+
+    .how-design{
+        flex-direction: column;        
+    }
+
+    .content-how-design{
+        width: 90%;
+    }
+
+    .content-how-design h2{
+        width: 100%;
+    }
+
+    .content-how-design p{
+        width: 100%;
+    }
+    
+
+   /* ------ Fim How Design ------ */
+
+
+   /* ------ Custumer ------ */
+
+    .customer{
+        flex-direction: column;        
+        gap: 0px;
+    }
+
+    .customer-content{
+        width: 90%;        
+    }
+
+    .customer-container{
+        flex-direction: column;
+    }
+
+   /* ------ Fim Custumer ------ */
+
+   /* ------ Caring ------ */
+
+    .caring-marketing-p{    
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .caring-marketing-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+   /* ------ Fim Caring ------ */
+
+
+   /* ------ Pellentesque ------ */    
+
+    .pellentesque h2{        
+        width: 90%;   
+        font-size: 60px;     
+    }
+
+   /* ------ Fim Pellentesque ------ */
+
+   /* ------ Footer ------ */
+
+    footer{
+        flex-direction: column;
+        align-items: start;
+        padding: 64px 20px;
+        gap: 40px;
+    }
+
+    .footer-navigation{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+   /* ------ Fim Footer ------ */
+
+
+}
