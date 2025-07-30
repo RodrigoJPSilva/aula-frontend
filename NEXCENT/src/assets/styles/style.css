@@ -1,0 +1,198 @@
+@import url(./global.css);
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+    padding: 22 0px;
+    background-color: var(--color-neutral-Silver);
+}
+.logo img{
+    height: 24px;
+    width: 155px;
+}
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: var(--color-primary);
+}
+.nav-header a {
+    color: black;
+}
+.active {
+    font-weight: 600;
+}
+.btn-header {
+    display: flex;
+    gap: 14px;
+
+}
+.btn-header button:nth-child(1) {
+    color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-header button:nth-child(2){
+    color: var(--color-neutral-White);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-header button:nth-child(1):hover {
+    color: var(--color-shade3);
+}
+.btn-header button:nth-child(2):hover {
+    background-color: var(--color-shade3);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-neutral-Silver);
+}
+.content-main {
+    display: flex;
+    flex-direction: column;
+    width: 657px;
+    gap:16px;
+}
+.content-main h1 {
+    font-size: 64px;
+}
+.content-main p {
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+}
+.btn-primary{
+    border-radius: var(--button-radius);
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--color-primary);
+    color: var(--color-neutral-White);
+    margin-top: 16px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: var(--color-shade3);
+}
+span {
+    color: var(--color-primary);
+}
+.img-main img {
+    width: 391px;
+    height: 407px;
+}
+.our-clients {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0px;
+    gap: 16px;
+}
+
+.our-clients-content h2 {
+    font-size: 36px;
+    color: var(--color-neutral-D-grey);
+    gap: 8px;
+}
+.our-clients-content p {
+    font-size: 16px;
+    color: var(--color-neutral-Grey);
+}
+.our-clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+}
+
+.community {
+    margin: 40px;
+    height: 416px;
+    gap: 16px;
+
+}
+
+.community-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.community-content h2{ 
+    font-size: 36px;
+    color: var(--color-neutral-D-grey);
+    gap: 8px;
+}
+.community-content p { 
+    font-size: 16px;
+    color: var(--color-neutral-Grey);
+}
+.community-karts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 280px;
+    margin: 16px 144px 0 144px;
+    gap: 127.5px;
+    border-radius: 8px;
+}
+.community-karts div:nth-child(odd) {
+    height: 260px;
+    align-content: center;
+    padding: 24px 32px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209,20%);
+    width: 300px;
+    height: 260px;
+}
+.title-kart {
+    font-size: 28px;
+    color: var(--color-neutral-D-grey);
+}
+
+.text-kart {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-neutral-Grey);
+}
+.community-karts div:nth-child(even) {
+    align-content: center;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209,20%);
+    padding: 32px 24px;
+    width: 300px;
+    height: 280px;
+}
+.pixelgrade {
+    display: flex;
+    align-items: center;
+    margin: 0px 144px;
+    gap: 50px;
+}
+.secondary-btn {
+    border-radius: var(--button-radius);
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--color-primary);
+    color: var(--color-neutral-White);
+    margin-top: 16px;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 328px;
+    background-color: var(--color-neutral-Black);
+    color: var(--color-neutral-White);
+}

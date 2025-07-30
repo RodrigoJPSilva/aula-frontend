@@ -1,0 +1,50 @@
+    * {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: none;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    :root{
+        --color-neutral-Black: #263238;
+        --color-neutral-D-grey: #4D4D4D;
+        --color-neutral-Grey: #717171;
+        --color-neutral-L_Grey: #89939E;
+        --color-neutral-Grey_Blue: #ABBED1;
+        --color-neutral-Silver: #F5F7FA;
+        --color-neutral-White: #FFFFFF;
+
+        --color-primary: #4CAF4F;
+
+        --color-securary:  #263238;
+
+        --color-info: #2194f3;
+
+        --color-shade1: #4CAF4F;
+        --color-shade2: #388E3B;
+        --color-shade3: #237D31;
+        --color-shade4: #1B5E1F;
+        --color-shade5: #103E13;
+        
+        --color-tint1: #66BB69;
+        --color-tint2: #81C784;
+        --color-tint3: #A5D6A7;
+        --color-tint4: #C8E6C9;
+        --color-tint5: #E8F5E9;
+        
+
+        --color-action-warning: #FBC02D;
+        --color-action-error: #E53835;
+        --color-action3-success: #2E7D31;
+
+        --font: "inter", sans-serif;
+
+        --button-height: 52px;
+        --button-width:128px;
+        --button-radius:4px;       
+    }
+    body {
+        font-family: var(--font);
+    }
