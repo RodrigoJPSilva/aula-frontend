@@ -1,0 +1,26 @@
+@import url(./global.css);
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+    width: 100vw;
+    border: 1px solid black;
+}
+img {
+    height: 24px;
+    width: 154.49px;
+}
+.nav-header {
+    display: flex;
+    gap: 50px;
+}
+.btn-header {
+    display: flex;
+    gap: 14px;
+}
+#login-btn {
+    color: var(--Color-Primary);
+    padding: 10px 20px;
+}

@@ -1,0 +1,65 @@
+* {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --Color-Neutral-Black: #263238;
+    --Color-Neutral-D_Grey: #4D4D4D;
+    --Color-Neutral-Grey: #717171;
+    --Color-Neutral-L_Grey: #89939E;
+    --Color-Neutral-Grey_Blue: #ABBED1;
+    --Color-Neutral-Silver: #F5F7FA;
+    --Color-Neutral-White: #FFFFFF;
+
+    --Color-Primary: #28CB8B;
+    --Color-Secudary: #263238;
+    
+    --Color-Info: #2194f3;
+
+    --Color-Shade1: #43A046;
+    --Color-Shade2: #388E3B;
+    --Color-Shade3: #237D31;
+    --Color-Shade4: #1B5E1F;
+    --Color-Shade5: #103E13;
+    
+    --Color-Tint1: #66BB69;
+    --Color-Tint2: #81C784;
+    --Color-Tint3: #A5D6A7;
+    --Color-Tint4: #C8E6C9;
+    --Color-Tint5: #E8F5E9;
+
+    --Color-Act-Warning: #FBC02D;
+    --Color-Act-Error: #E53835;
+    --Color-Act-Success: #2E7D31;
+
+    --h1-font-size: 64px; 
+    --h2-font-size: 36px; 
+    --h3-font-size: 28px; 
+    --h4-font-size: 20px;
+    --text-font-size1: 18px;
+    --text-font-size2: 16px;
+    --text-font-size3: 14px;
+    --text-font-size4: 12px;
+
+    --Shadow-size1: 2px;
+    --Shadow-size2: 4px;
+    --Shadow-size3: 6px;
+    --Shadow-size4: 8px;
+    --Shadow-size5: 16px;
+
+    /* O gap será o mesmo para todos os botões de ícones */
+    --Btn-Gap: 8px;
+
+
+    --Standard-Btn-Padding-Normal: 16px 32px;
+    --Standard-Btn-Padding-Medium: 14px 32px;
+    --Standard-Btn-Padding-Small: 8px 24px;
+
+    --Icon-Btn-Padding-Normal: 20px;
+    --Icon-Btn-Padding-Medium: 12px;
+    --Icon-Btn-Padding-Small: 8px;
+}
